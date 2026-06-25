@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AR OFF-ROAD RIDES - Unleash the Adventure. Explore premium off-road bikes, ATVs, dirt bikes, hoverboards, and drifters. Shop today.">
+  <meta name="keywords" content="off-road, bikes, ATV, dirt bikes, hoverboards, pit bikes, AR OFF-ROAD RIDES">
+  <title>AR OFF-ROAD RIDES | Unleash the Adventure</title>
+  
+  <!-- Premium Stylesheets -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- FontAwesome Icons for Premium Assets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ================= Sticky Header Navigation ================= -->
+  <header class="header">
+    <div class="container">
+      <div class="logo-container" style="display: flex; align-items: center; gap: 12px;">
+        <img src="./public/logo.jpg" alt="AR Brand Logo" style="width: 42px; height: 42px; border-radius: 50%; border: 2px solid var(--primary-red); object-fit: cover; flex-shrink: 0;">
+        <div style="display: flex; flex-direction: column;">
+          <a href="#home" class="logo-text" style="font-size: 1.3rem; line-height: 1.2;">AR <span>OFF-ROAD</span> RIDES</a>
+          <span class="logo-tagline">"Unleash the Adventure"</span>
+        </div>
+      </div>
+      
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#bikes" class="nav-link">Bikes</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://www.instagram.com/" target="_blank" class="social-icon-link" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61575075029485" target="_blank" class="social-icon-link" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <button class="search-btn-trigger" id="search-trigger" aria-label="Search Catalog">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= Search Overlay Modal ================= -->
+  <div class="search-overlay" id="search-overlay">
+    <button class="search-close-btn" id="search-close" aria-label="Close Search">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="search-container">
+      <input type="text" class="search-input" id="search-input" placeholder="Type to search bikes, ATVs...">
+      <p style="color: var(--text-gray-muted); margin-top: 15px; font-size: 0.9rem;">Press ESC to cancel</p>
+    </div>
+  </div>
+
+  <!-- ================= Hero Section with Slow Fade Slideshow ================= -->
+  <section id="home" class="hero">
+    <div class="hero-slideshow" id="hero-slideshow">
+      <!-- Slides are dynamically updated, but we provide static initial markup for instant load -->
+      <div class="hero-slide active">
+        <img class="hero-image" src="./public/products/500cc-atv-p1.png" alt="AR Off Road Hero 1">
+      </div>
+      <div class="hero-slide">
+        <img class="hero-image" src="./public/products/300cc-panther-atv-p1.png" alt="AR Off Road Hero 2">
+      </div>
+      <div class="hero-slide">
+        <img class="hero-image" src="./public/products/200cc-spark-atv-p1.png" alt="AR Off Road Hero 3">
+      </div>
+      <div class="hero-slide">
+        <img class="hero-image" src="./public/products/26-inches-bmw-foldable-bicyle-p1.png" alt="AR Off Road Hero 4">
+      </div>
+      <div class="hero-slide">
+        <img class="hero-image" src="./public/products/26-inches-foldable-fat-bicycle-p1.png" alt="AR Off Road Hero 5">
+      </div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    <div class="hero-accent-gradient"></div>
+
+    <div class="hero-content container">
+      <div class="hero-tagline-badge glass-red">
+        Premium Off-Road Showroom
+      </div>
+      <h1 class="hero-title animate-fade-in-up">
+        <span>AR OFF-ROAD</span>
+        <span class="gradient-text">RIDES</span>
+      </h1>
+      <p class="hero-subtitle">"Unleash the Adventure"</p>
+      
+      <div class="hero-actions">
+        <a href="#bikes" class="btn btn-primary">Explore Bikes</a>
+        <a href="#contact" class="btn btn-secondary">Contact Us</a>
+      </div>
+    </div>
+
+    <button class="hero-scroll-btn" onclick="document.getElementById('bikes').scrollIntoView({behavior: 'smooth'})" aria-label="Scroll Down">
+      <i class="fas fa-chevron-down fa-2x"></i>
+    </button>
+  </section>
+
+  <!-- ================= Products Section ================= -->
+  <section id="bikes" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Our Showroom</span>
+        <h2 class="section-title">Adventure <span>Machines</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Categories Filter Tabs -->
+      <div class="filter-tabs-container">
+        <button class="filter-tab active" data-category="All">All Vehicles</button>
+        <button class="filter-tab" data-category="ATV">ATVs</button>
+        <button class="filter-tab" data-category="Bicycles">Bicycles</button>
+        <button class="filter-tab" data-category="Dirt Bikes">Dirt Bikes</button>
+        <button class="filter-tab" data-category="Hoverboards & Drifters">Hoverboards & Drifters</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= About Us Section ================= -->
+  <section id="about" class="section-padding about reveal">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-box">
+          <img src="./public/products/125cc-moto-cross-p1.png" alt="About AR Off-Road Rides">
+        </div>
+        <div class="about-text-content">
+          <span class="section-subtitle">Who We Are</span>
+          <h3>AR OFF-ROAD RIDES</h3>
+          <p class="about-paragraph">
+            AR OFF-ROAD RIDES is dedicated to providing premium off-road bikes and adventure machines with quality service and customer satisfaction. Our mission is to deliver performance, reliability, and excitement to every rider.
+          </p>
+          
+          <h4 style="text-transform: uppercase; font-size: 1rem; letter-spacing: 0.05em; margin-bottom: 15px; color: var(--text-white);">Management Team</h4>
+          <div class="team-grid">
+            <div class="team-card glass-light">
+              <span class="team-role">Managing Director</span>
+              <span class="team-name">Mohammad Aijaz Uddin</span>
+            </div>
+            <div class="team-card glass-light">
+              <span class="team-role">General Manager</span>
+              <span class="team-name">Shaik Akram</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Contact Us Section ================= -->
+  <section id="contact" class="section-padding reveal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact <span>Showroom</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Block -->
+        <div class="contact-info-column">
+          <div class="contact-card-item glass-light">
+            <div class="contact-icon-box">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Phone Numbers</h4>
+              <p>Company: <a href="tel:7989455436">7989455436</a></p>
+              <p>Managing Director: <a href="tel:8919104775">8919104775</a></p>
+              <p>General Manager: <a href="tel:8247661058">8247661058</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card-item glass-light">
+            <div class="contact-icon-box">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email Address</h4>
+              <p><a href="mailto:aroffroadrides@gmail.com">aroffroadrides@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card-item glass-light">
+            <div class="contact-icon-box">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Instagram</h4>
+              <p><a href="https://www.instagram.com/" target="_blank">@ar_offroadrides</a></p>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4069399222634!2d78.472288!3d17.375628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb978a6ff586ad%3A0xf6578a1f6a15234!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Submission Form -->
+        <div class="contact-form-box glass">
+          <h3 style="font-size: 1.5rem; text-transform: uppercase; margin-bottom: 24px;">Send Message</h3>
+          <form id="contact-form-el">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Your Message</label>
+              <textarea id="contact-message" class="form-input" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+            <img src="./public/logo.jpg" alt="AR Brand Logo" style="width: 45px; height: 45px; border-radius: 50%; border: 2px solid var(--primary-red); object-fit: cover; flex-shrink: 0;">
+            <h4 style="margin: 0; font-size: 1.4rem; line-height: 1.2;">AR <span>OFF-ROAD</span> RIDES</h4>
+          </div>
+          <p>Providing premium adventure machines, pit bikes, ATVs, and off-road vehicles. Unleash the adventure today.</p>
+          <div class="footer-social-links">
+            <a href="https://www.instagram.com/" target="_blank" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61575075029485" target="_blank" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-nav-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bikes">Showroom</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5>Products</h5>
+          <ul class="footer-links-list">
+            <li><a href="#bikes">ATVs</a></li>
+            <li><a href="#bikes">Bicycles</a></li>
+            <li><a href="#bikes">Dirt Bikes</a></li>
+            <li><a href="#bikes">Hoverboards</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5>Contact</h5>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone-alt"></i> Phone: 7989455436</li>
+            <li><i class="fas fa-envelope"></i> aroffroadrides@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Hyderabad, India</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 AR OFF-ROAD RIDES. All Rights Reserved. Unleash the Adventure.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= Floating Call & WhatsApp Buttons ================= -->
+  <div class="floating-widget-bar">
+    <!-- Floating Corner Brand Logo -->
+    <div class="float-logo-badge" style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden; border: 2px solid var(--primary-red); box-shadow: 0 4px 15px rgba(220,38,38,0.4); background-color: #000; display: flex; align-items: center; justify-content: center; margin-bottom: 6px; cursor: pointer; transition: var(--transition-smooth);" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Go to Top">
+      <img src="./public/logo.jpg" alt="AR Brand Logo" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    
+    <a href="https://wa.me/918247661058" target="_blank" class="float-action-btn float-whatsapp" aria-label="WhatsApp Us">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:7989455436" class="float-action-btn float-call" aria-label="Call Us">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+  </div>
+
+  <!-- ================= AR Assistant AI Chatbot ================= -->
+  <div class="chatbot-widget-container">
+    <div class="chat-window glass" id="chat-window">
+      <div class="chat-header">
+        <div class="chat-bot-avatar">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="chat-bot-info">
+          <h4>AR Assistant</h4>
+          <div class="chat-status-indicator">
+            <span class="status-dot"></span> Online
+          </div>
+        </div>
+      </div>
+      
+      <div class="chat-history-body" id="chat-history">
+        <!-- Message bubbles are injected by chatbot.js -->
+      </div>
+      
+      <div class="chat-quick-replies-wrapper" id="chat-replies">
+        <!-- Reply chips injected by chatbot.js -->
+      </div>
+    </div>
+
+    <button class="chatbot-trigger-btn" id="chat-trigger" aria-label="Open Support Chat">
+      <i class="fas fa-comments chat-icon"></i>
+      <i class="fas fa-times close-icon"></i>
+    </button>
+  </div>
+
+  <!-- ================= Product Details Modal ================= -->
+  <div class="modal-overlay" id="details-modal">
+    <div class="modal-content-wrapper glass">
+      <button class="modal-close-btn" onclick="closeDetailsModal()" aria-label="Close details">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-scrollable-body">
+        <div class="details-grid">
+          
+          <!-- Image slideshow Gallery -->
+          <div class="details-gallery">
+            <div class="gallery-main-wrapper">
+              <img src="" alt="Active main gallery view" class="gallery-main-img" id="gallery-main">
+              <button class="gallery-nav-btn gallery-prev-btn" id="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+              <button class="gallery-nav-btn gallery-next-btn" id="gallery-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="gallery-thumbnails" id="gallery-thumbs">
+              <!-- Thumbnails generated dynamically by app.js -->
+            </div>
+          </div>
+
+          <!-- Specs Info -->
+          <div class="details-info-panel">
+            <h2 id="detail-name">Vehicle Name</h2>
+            <div class="details-price-row">
+              <span class="details-price" id="detail-price">₹0</span>
+              <span class="details-stock-badge" id="detail-stock">In Stock</span>
+            </div>
+            
+            <p class="details-desc-text" id="detail-desc">Full description goes here.</p>
+            
+            <div class="details-colors-row">
+              <span class="details-subtitle">Available Colors</span>
+              <div class="colors-wrapper" id="detail-colors">
+                <!-- Color chips dynamically added -->
+              </div>
+            </div>
+
+            <div class="details-features-row">
+              <span class="details-subtitle">Highlights & Features</span>
+              <ul class="features-list" id="detail-features">
+                <!-- Features list items added dynamically -->
+              </ul>
+            </div>
+
+            <!-- Specifications Table -->
+            <div class="details-specs-table-wrapper">
+              <span class="details-subtitle">Technical Specifications</span>
+              <table class="specs-table">
+                <tbody id="detail-specs-table">
+                  <!-- Specs tr rows added dynamically -->
+                </tbody>
+              </table>
+            </div>
+
+            <div class="details-modal-actions">
+              <button class="btn btn-primary" id="detail-buy-btn" style="width: 100%;">Buy Now</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= Order Form Popup Modal ================= -->
+  <div class="modal-overlay" id="order-modal">
+    <div class="modal-content-wrapper glass order-form-modal">
+      <button class="modal-close-btn" onclick="closeOrderForm()" aria-label="Close Order Form">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-scrollable-body">
+        <h2 class="order-form-title">Place Your Order</h2>
+        <p class="order-form-subtitle">Complete the details below to submit your order request</p>
+        
+        <div class="order-selected-bike-badge">
+          <div>
+            <span style="font-size: 0.8rem; color: var(--text-gray-muted); text-transform: uppercase;">Selected Vehicle</span>
+            <div class="order-bike-name" id="order-bike-name">BMW Foldable Bicycle</div>
+          </div>
+          <div class="order-bike-price" id="order-bike-price">₹13,999</div>
+        </div>
+
+        <form id="order-form-el" onsubmit="event.preventDefault(); placeOrderWhatsApp();">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="order-name" class="form-label">Full Name</label>
+              <input type="text" id="order-name" class="form-input" placeholder="Mohammad Uddin" required>
+            </div>
+            <div class="form-group">
+              <label for="order-phone" class="form-label">Phone Number</label>
+              <input type="tel" id="order-phone" class="form-input" placeholder="8919104775" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="order-address" class="form-label">Shipping Address</label>
+            <input type="text" id="order-address" class="form-input" placeholder="House No, Road Name, Area" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="order-city" class="form-label">City</label>
+              <input type="text" id="order-city" class="form-input" placeholder="Hyderabad" required>
+            </div>
+            <div class="form-group">
+              <label for="order-state" class="form-label">State</label>
+              <input type="text" id="order-state" class="form-input" placeholder="Telangana" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="order-pin" class="form-label">PIN Code</label>
+              <input type="text" id="order-pin" class="form-input" placeholder="500001" required>
+            </div>
+            <div class="form-group">
+              <label for="order-qty" class="form-label">Quantity</label>
+              <input type="number" id="order-qty" class="form-input" min="1" max="10" value="1" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="order-message" class="form-label">Additional Message (Optional)</label>
+            <textarea id="order-message" class="form-input" style="min-height: 80px;" placeholder="Preferred delivery time, specific colors etc..."></textarea>
+          </div>
+
+          <div class="order-actions-grid" style="grid-template-columns: 1fr;">
+            <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
+              <i class="fab fa-whatsapp"></i> Confirm Order via WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load JavaScript Scripts -->
+  <script src="./js/bikes-data.js"></script>
+  <script src="./js/chatbot.js"></script>
+  <script src="./js/order.js"></script>
+  <script src="./js/app.js"></script>
+  
+  <!-- Slide animation engine for Hero slideshow -->
+  <script>
+    // Hero crossfade slideshow helper
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.hero-slide');
+      let currentSlide = 0;
+      
+      setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+      }, 5000);
+    });
+  </script>
+</body>
+</html>

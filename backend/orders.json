@@ -1,0 +1,38 @@
+[
+  {
+    "customerName": "Alice Smith",
+    "phone": "9876543210",
+    "address": "123 Trail Road",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pinCode": "560001",
+    "productName": "300cc Panther ATV",
+    "quantity": 1,
+    "additionalMessage": "Looking forward to riding!",
+    "createdAt": "2026-06-25T09:40:33.512Z"
+  },
+  {
+    "customerName": "shaajani",
+    "phone": "9908067685",
+    "address": "mvr colony , thadigadapa",
+    "city": "vijayawada",
+    "state": "andhra pradesh",
+    "pinCode": "520007",
+    "productName": "50cc Mini Mouzer ATV",
+    "quantity": 1,
+    "additionalMessage": "testing message(ignore)",
+    "createdAt": "2026-06-25T10:30:30.491Z"
+  },
+  {
+    "customerName": "Shaajani Vangaliyappan",
+    "phone": "9908067685",
+    "address": "mvr colony, thadigadapa",
+    "city": "vijayawada",
+    "state": "andhra pradesh",
+    "pinCode": "520001",
+    "productName": "26 Inches BMW Foldable Bicycle",
+    "quantity": 1,
+    "additionalMessage": "testing msg",
+    "createdAt": "2026-06-25T16:18:19.439Z"
+  }
+]

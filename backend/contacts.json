@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "message": "Hello AR Rides!",
+    "createdAt": "2026-06-25T09:40:33.443Z"
+  },
+  {
+    "name": "shaajani",
+    "email": "shaajanivangaliyappan@gmail.com",
+    "message": "this is a testing message",
+    "createdAt": "2026-06-25T10:18:14.776Z"
+  },
+  {
+    "name": "shaajani",
+    "email": "shaajanivangaliyappan@gmail.com",
+    "message": "testing message",
+    "createdAt": "2026-06-25T10:29:18.308Z"
+  }
+]
