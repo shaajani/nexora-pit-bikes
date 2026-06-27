@@ -67,10 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // --- Search Overlay Toggle ---
-  searchTrigger.addEventListener('click', () => {
-    searchOverlay.classList.add('active');
-    searchInput.focus();
-  });
+  if (searchTrigger) {
+    searchTrigger.addEventListener('click', () => {
+      searchOverlay.classList.add('active');
+      searchInput.focus();
+    });
+  }
 
   searchClose.addEventListener('click', () => {
     searchOverlay.classList.remove('active');
