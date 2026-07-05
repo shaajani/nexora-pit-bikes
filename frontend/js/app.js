@@ -153,7 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="product-info">
           <div class="product-header-row">
             <h3 class="product-card-title">${bike.name}</h3>
-            <span class="product-card-price">${bike.price}</span>
           </div>
           <p class="product-card-desc">${bike.shortDescription}</p>
           <div class="product-mini-specs">
@@ -181,7 +180,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inject Text Content
     detailName.innerText = bike.name;
-    detailPrice.innerText = bike.price;
     detailDesc.innerText = bike.fullDescription;
     
     // In stock indicator

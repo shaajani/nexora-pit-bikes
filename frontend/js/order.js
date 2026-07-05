@@ -11,7 +11,6 @@ function openOrderForm(bike) {
   
   // Update UI Elements
   document.getElementById('order-bike-name').innerText = bike.name;
-  document.getElementById('order-bike-price').innerText = bike.price;
   
   // Reset form inputs
   document.getElementById('order-form-el').reset();
