@@ -265,52 +265,6 @@
       "category": "ATV"
     },
     {
-      "id": "bike-7",
-      "name": "125cc Moto Cross Dirt Bike",
-      "price": "₹70,000",
-      "shortDescription": "High-performance 125cc Moto Cross dirt bike built for extreme trails and off-road tracks.",
-      "fullDescription": "The 125cc Moto Cross Dirt Bike is designed for intermediate riders who crave speed, agility, and heavy-duty performance. Featuring a robust 125cc 4-stroke air-cooled engine and a manual 4-speed gearbox, it gives the rider full power control. Its upside-down hydraulic front forks and rear mono-shock absorb the hardest jumps on the trail, while front and rear hydraulic disc brakes ensure precise stopping power.",
-      "images": [
-        "./public/products/125cc-moto-cross-p1.png",
-        "./public/products/125cc-moto-cross-p2.png",
-        "./public/products/125cc-moto-cross-p3.png",
-        "./public/products/125cc-moto-cross-p4.png",
-        "./public/products/125cc-moto-cross-p5.png",
-        "./public/products/125cc-moto-cross-p6.png",
-        "./public/products/125cc-moto-cross-p7.png",
-        "./public/products/125cc-moto-cross-p8.png",
-        "./public/products/125cc-moto-cross-p9.png",
-        "./public/products/125cc-moto-cross-p10.png",
-        "./public/products/125cc-moto-cross-p11.png"
-      ],
-      "specifications": {
-        "Engine Type": "125cc, Single Cylinder, 4-Stroke, Air-Cooled",
-        "Transmission": "4-Speed Manual (1-N-2-3-4)",
-        "Suspension": "Upside-Down Hydraulic Front Forks, Rear Mono Shock",
-        "Braking System": "Front & Rear Hydraulic Disc Brakes",
-        "Fuel Tank Capacity": "5 L",
-        "Kerb Weight": "75 kg",
-        "Max Load Capacity": "90 kg",
-        "Tyres Size": "Front 17\" / Rear 14\" Knobby"
-      },
-      "features": [
-        "High-Performance 125cc Engine",
-        "Heavy Duty Steel Cradle Frame",
-        "Aggressive Off-Road Knobby Tyres",
-        "Upside Down Front Forks",
-        "Rear Mono Shock Suspension",
-        "Hydraulic Disc Brakes",
-        "Sporty Graphic Kit"
-      ],
-      "colors": [
-        "Red",
-        "White",
-        "Black"
-      ],
-      "inStock": true,
-      "category": "Dirt Bikes"
-    },
-    {
       "id": "bike-8",
       "name": "125cc Pit Bike",
       "price": "₹85,000",
@@ -894,6 +848,361 @@
       ],
       "inStock": true,
       "category": "ATV"
+    },
+    {
+      "id": "bike-22",
+      "name": "500cc Beast ATV",
+      "price": "₹4,80,000",
+      "shortDescription": "Rugged and aggressive 500cc Beast ATV with 4x4 drive, speed limiters, and dual racks.",
+      "fullDescription": "The 500cc Beast ATV is designed for ultimate off-road power and capability. Equipped with a robust 500cc 4-stroke petrol engine and selectable 4x4 system, it easily tackles steep hills, muddy tracks, and rocky fields. Features heavy-duty front and rear utility racks, automatic CVT transmission with reverse, a comfortable passenger backrest, and high-performance SUNF off-road tires for maximum grip.",
+      "images": [
+        "./public/products/500cc-beast-atv-p1.jpg",
+        "./public/products/500cc-beast-atv-p2.jpg",
+        "./public/products/500cc-beast-atv-p3.jpg",
+        "./public/products/500cc-beast-atv-p4.jpg",
+        "./public/products/500cc-beast-atv-p5.jpg",
+        "./public/products/500cc-beast-atv-p6.jpg",
+        "./public/products/500cc-beast-atv-p7.jpg",
+        "./public/products/500cc-beast-atv-p8.jpg",
+        "./public/products/500cc-beast-atv-p9.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "500cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "Automatic CVT (F-N-R)",
+        "Drive System": "4WD / 2WD Selectable",
+        "Braking System": "Front & Rear Hydraulic Disc Brakes",
+        "Fuel Tank Capacity": "14 L",
+        "Kerb Weight": "295 kg",
+        "Max Load Capacity": "190 kg",
+        "Tyres": "SUNF All-Terrain Tubeless"
+      },
+      "features": [
+        "Powerful 500cc Engine",
+        "Selectable 4WD Drive",
+        "Front & Rear Utility Racks",
+        "CVT Automatic Gearbox",
+        "Comfortable Passenger Backrest",
+        "SUNF Off-Road Heavy Duty Tires",
+        "Dual Speed Modes",
+        "Electric Key Start"
+      ],
+      "colors": [
+        "Grey",
+        "Silver"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
+    {
+      "id": "bike-23",
+      "name": "200cc Side-by-Side UTV",
+      "price": "₹3,50,000",
+      "shortDescription": "Premium 200cc Side-by-Side UTV with roll cage, passenger seats, and canopy.",
+      "fullDescription": "The 200cc Side-by-Side UTV brings the comfort of double seating and roll-cage safety to your off-road adventures. Powered by a dependable 200cc 4-stroke air-cooled engine with automatic transmission (1 Forward + 1 Reverse), it features a sturdy canopy roof, rear storage cargo bed, dual bucket seats with safety belts, and a full steel tube roll cage. Perfect for farm utility work or weekend recreation.",
+      "images": [
+        "./public/products/200cc-utv-p1.jpg",
+        "./public/products/200cc-utv-p2.jpg",
+        "./public/products/200cc-utv-p3.jpg",
+        "./public/products/200cc-utv-p4.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "200cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "Automatic CVT with Reverse (1F+1R)",
+        "Drive System": "2WD Chain Drive",
+        "Braking System": "Front & Rear Hydraulic Disc Brakes",
+        "Fuel Tank Capacity": "9.5 L",
+        "Kerb Weight": "240 kg",
+        "Max Load Capacity": "180 kg",
+        "Seats": "Dual Bucket Seats with Safety Belts"
+      },
+      "features": [
+        "Two-Seater Side-by-Side Design",
+        "Full Steel Roll Cage",
+        "Protective Canopy Roof",
+        "Rear Cargo Storage Box",
+        "Automatic Transmission",
+        "Dual Hydraulic Disc Brakes",
+        "All-Terrain Utility Tires"
+      ],
+      "colors": [
+        "Blue",
+        "Black"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
+    {
+      "id": "bike-24",
+      "name": "200cc Super Bull ATV",
+      "price": "₹2,50,000",
+      "shortDescription": "Aggressive 200cc Super Bull ATV featuring front winch, spare tire, and outer safety cage.",
+      "fullDescription": "The 200cc Super Bull ATV is a fully loaded quad bike built for serious trail work and emergency rescue styling. It features a front electric winch, a passenger backrest, a protective outer safety cage, high-intensity LED headlights, side mirrors, and a rear-mounted extra tire. Powered by a reliable 200cc engine, it supports electric self-start, kick start, and remote start capabilities.",
+      "images": [
+        "./public/products/200cc-super-bull-atv-p1.jpg",
+        "./public/products/200cc-super-bull-atv-p2.jpg",
+        "./public/products/200cc-super-bull-atv-p3.jpg",
+        "./public/products/200cc-super-bull-atv-p4.jpg",
+        "./public/products/200cc-super-bull-atv-p5.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "200cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Starter System": "Electric Key Start + Pull Start + Remote Control",
+        "Transmission": "Automatic with Reverse",
+        "Braking System": "Front Drum & Rear Hydraulic Disc Brakes",
+        "Fuel Tank Capacity": "8 L",
+        "Kerb Weight": "210 kg",
+        "Max Load Capacity": "150 kg",
+        "Accessories": "Front Winch, Rear Extra Tire, Side Mirrors"
+      },
+      "features": [
+        "Heavy-Duty Front Electric Winch",
+        "Rear-Mounted Full-Size Spare Tire",
+        "Protective Outer Safety Cage",
+        "Remote Start/Stop Key",
+        "High-Intensity LED Lighting System",
+        "Rear Passenger Backrest & Handguards"
+      ],
+      "colors": [
+        "Blue",
+        "Black"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
+    {
+      "id": "bike-25",
+      "name": "150cc Mini Jeep",
+      "price": "₹2,20,000",
+      "shortDescription": "Classic military-styled 150cc Mini Jeep with manual transmission, spare tire, and jerry can.",
+      "fullDescription": "The 150cc Mini Jeep is a recreation of the classic military style vehicle in a compact size. Powered by a 150cc 4-stroke petrol engine with a 3-speed manual transmission plus reverse (3-2-1-N-R), it delivers authentic driving dynamics. Standard features include a folding windshield, double padded seats, headlights, rear-mounted spare tire, and a decorative jerry can.",
+      "images": [
+        "./public/products/150cc-mini-jeep-p1.jpg",
+        "./public/products/150cc-mini-jeep-p2.jpg",
+        "./public/products/150cc-mini-jeep-p3.jpg",
+        "./public/products/150cc-mini-jeep-p4.jpg",
+        "./public/products/150cc-mini-jeep-p5.jpg",
+        "./public/products/150cc-mini-jeep-p6.jpg",
+        "./public/products/150cc-mini-jeep-p7.jpg",
+        "./public/products/150cc-mini-jeep-p8.jpg",
+        "./public/products/150cc-mini-jeep-p9.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "150cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "3-Speed Manual Drivetrain with Reverse",
+        "Starter System": "Electric Key Start",
+        "Braking System": "Front & Rear Hydraulic Disc Brakes",
+        "Fuel Tank Capacity": "7 L",
+        "Kerb Weight": "180 kg",
+        "Max Load Capacity": "140 kg",
+        "Accessories": "Spare Tire, Fuel Jerry Can, Foldable Windshield"
+      },
+      "features": [
+        "Classic US Army Military Design",
+        "3-Speed Manual with Reverse Drivetrain",
+        "Folding Windshield & Side Mirrors",
+        "Rear-Mounted Spare Wheel & Jerry Can",
+        "Comfortable Dual Seating",
+        "Hydraulic Disc Brakes Front & Rear"
+      ],
+      "colors": [
+        "Army Green"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
+    {
+      "id": "bike-26",
+      "name": "Super Motocross 125cc",
+      "price": "₹75,000",
+      "shortDescription": "Aggressive 125cc dirt bike with red anodized forks, heavy duty cradle frame, and manual clutch.",
+      "fullDescription": "The Super Motocross 125cc is a pure off-road trail machine designed for high jumps and high speed. Featuring a robust 125cc 4-stroke engine, manual 4-speed clutch, anodized red front forks and matching rims, and wave-style dual disc brakes. The reinforced cradle steel frame and heavy-duty suspension absorb the toughest terrain jumps.",
+      "images": [
+        "./public/products/super-motocross-125cc-p1.jpg",
+        "./public/products/super-motocross-125cc-p2.jpg",
+        "./public/products/super-motocross-125cc-p3.jpg",
+        "./public/products/super-motocross-125cc-p4.jpg",
+        "./public/products/super-motocross-125cc-p5.jpg",
+        "./public/products/super-motocross-125cc-p6.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "125cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "4-Speed Manual Gearbox",
+        "Suspension": "Upside Down Front Forks, Heavy Duty Rear Mono Shock",
+        "Braking System": "Front & Rear Wave Disc Brakes",
+        "Fuel Tank Capacity": "4.5 L",
+        "Kerb Weight": "73 kg",
+        "Max Load Capacity": "95 kg",
+        "Tires": "17\" Front, 14\" Rear Off-Road Knobby"
+      },
+      "features": [
+        "High-End Anodized Red Suspension & Rims",
+        "4-Speed Manual Gear Drivetrain",
+        "Reinforced Steel Cradle Frame",
+        "High-Grip Knobby Off-Road Tyres",
+        "Wave Disc Brakes Front & Rear",
+        "Kick & Electric Self Start"
+      ],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "inStock": true,
+      "category": "Dirt Bikes"
+    },
+    {
+      "id": "bike-27",
+      "name": "135cc Super Phantom ATV",
+      "price": "₹1,20,000",
+      "shortDescription": "Premium 135cc Super Phantom ATV with aluminum rims, backrest, handguards, and digital console.",
+      "fullDescription": "The 135cc Super Phantom ATV is an upgraded, high-spec utility quad. Featuring a powerful 135cc 4-stroke engine, striking aluminum alloy wheels, passenger backrest, protective outer brush guards, handguards, and a digital console display. Equipped with remote control key start/stop and bright LED projector headlamps with extra spotlights.",
+      "images": [
+        "./public/products/135cc-super-phantom-atv-p1.jpg",
+        "./public/products/135cc-super-phantom-atv-p2.jpg",
+        "./public/products/135cc-super-phantom-atv-p3.jpg",
+        "./public/products/135cc-super-phantom-atv-p4.jpg",
+        "./public/products/135cc-super-phantom-atv-p5.jpg",
+        "./public/products/135cc-super-phantom-atv-p6.jpg",
+        "./public/products/135cc-super-phantom-atv-p7.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "135cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Starter System": "Electric Start with Remote Control",
+        "Transmission": "Automatic with Reverse (F-N-R)",
+        "Braking System": "Front Drum & Rear Hydraulic Disc Brakes",
+        "Wheels": "Premium Aluminum Alloy Wheels",
+        "Fuel Tank Capacity": "5 L",
+        "Kerb Weight": "165 kg",
+        "Max Load Capacity": "145 kg"
+      },
+      "features": [
+        "Striking Aluminum Alloy Wheels",
+        "Digital Speedometer Display",
+        "Rear Passenger Backrest & Handguards",
+        "Dual Spotlight Pods + LED Headlights",
+        "Remote Start/Stop System",
+        "Sturdy Front & Rear Utility Grids"
+      ],
+      "colors": [
+        "Yellow",
+        "Black"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
+    {
+      "id": "bike-28",
+      "name": "Motocross Pro 125cc",
+      "price": "₹80,000",
+      "shortDescription": "Feature-packed 125cc Motocross Pro dirt bike with headlight, manual transmission, and high-clearance frame.",
+      "fullDescription": "The Motocross Pro 125cc is a professional-grade trail dirt bike equipped for night and day adventure. Featuring an integrated front headlight, a 125cc 4-stroke engine, a 4-speed manual gearbox, dual hydraulic disc brakes, and high-tensile steel cradle construction. Its long-travel suspension delivers superior shock absorption on dirt jumps.",
+      "images": [
+        "./public/products/motocross-pro-125cc-p1.jpg",
+        "./public/products/motocross-pro-125cc-p2.jpg",
+        "./public/products/motocross-pro-125cc-p3.jpg",
+        "./public/products/motocross-pro-125cc-p4.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "125cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "4-Speed Manual Clutch (1-N-2-3-4)",
+        "Braking System": "Front & Rear Hydraulic Disc Brakes",
+        "Suspension": "Long-Travel Hydraulic Forks & Rear Shock",
+        "Fuel Tank Capacity": "5.2 L",
+        "Kerb Weight": "76 kg",
+        "Max Load Capacity": "90 kg",
+        "Lighting": "Front Halogen Headlight"
+      },
+      "features": [
+        "Integrated Front Headlight for Night Riding",
+        "4-Speed Manual Transmission",
+        "High Ground Clearance Frame",
+        "Dual Hydraulic Wave Disc Brakes",
+        "High-Traction Knobby Dirt Tyres",
+        "Electric Key Start & Kick Start"
+      ],
+      "colors": [
+        "White",
+        "Orange",
+        "Blue"
+      ],
+      "inStock": true,
+      "category": "Dirt Bikes"
+    },
+    {
+      "id": "bike-29",
+      "name": "Dirt Plus 50cc",
+      "price": "₹32,000",
+      "shortDescription": "Junior 50cc Dirt Plus bike with automatic transmission, pull start, and vibrant lime green spokes.",
+      "fullDescription": "The Dirt Plus 50cc is the ideal first dirt bike for younger riders. Equipped with a reliable 50cc 2-stroke petrol engine, a simple fully automatic twist-and-go transmission, front/rear disc brakes, and a remote safety kill switch. Eye-catching lime green matching frame and wheel spokes give it a professional racer look.",
+      "images": [
+        "./public/products/dirt-plus-50cc-p1.jpg",
+        "./public/products/dirt-plus-50cc-p2.jpg",
+        "./public/products/dirt-plus-50cc-p3.jpg",
+        "./public/products/dirt-plus-50cc-p4.jpg",
+        "./public/products/dirt-plus-50cc-p5.jpg",
+        "./public/products/dirt-plus-50cc-p6.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "50cc, Single Cylinder, 2-Stroke, Air-Cooled",
+        "Transmission": "Automatic (Centrifugal Clutch)",
+        "Starter System": "Easy Pull-Start + Electric Self-Start",
+        "Braking System": "Front & Rear Mechanical Disc Brakes",
+        "Fuel Tank Capacity": "2 L",
+        "Kerb Weight": "26 kg",
+        "Max Load Capacity": "55 kg",
+        "Safety": "Lanyard Latch Kill Switch"
+      },
+      "features": [
+        "Vibrant Racer Styling with Lime Green Frame",
+        "Simple Automatic Twist-and-Go Operation",
+        "Dual Mechanical Disc Brakes",
+        "Front Telescopic Fork & Rear Shock",
+        "Safety Lanyard Latch Shutoff",
+        "Lightweight, Beginner-Friendly Frame"
+      ],
+      "colors": [
+        "Green",
+        "White",
+        "Black"
+      ],
+      "inStock": true,
+      "category": "Dirt Bikes"
+    },
+    {
+      "id": "bike-30",
+      "name": "125cc Monkey Bike",
+      "price": "₹90,000",
+      "shortDescription": "Classic vintage-style 125cc Monkey Bike with high handlebars, side mirrors, and semi-automatic transmission.",
+      "fullDescription": "The 125cc Monkey Bike recreates the vintage mini-motorcycle design with modern performance. Equipped with high-rise chrome handlebars, dual side mirrors, a full headlight and tail light kit, front and rear disc brakes, and a semi-automatic 4-speed transmission that doesn't require a manual clutch lever, making it incredibly fun and easy to cruise around.",
+      "images": [
+        "./public/products/125cc-monkey-bike-p1.jpg",
+        "./public/products/125cc-monkey-bike-p2.jpg",
+        "./public/products/125cc-monkey-bike-p3.jpg",
+        "./public/products/125cc-monkey-bike-p4.jpg",
+        "./public/products/125cc-monkey-bike-p5.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "125cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "4-Speed Semi-Automatic",
+        "Starter System": "Electric Self-Start + Kick Start Backup",
+        "Braking System": "Front & Rear Hydraulic Disc Brakes",
+        "Lighting": "Headlight, Turn Indicators & Taillight",
+        "Fuel Tank Capacity": "4.5 L",
+        "Kerb Weight": "68 kg",
+        "Max Load Capacity": "85 kg"
+      },
+      "features": [
+        "Vintage Retro Mini Motorcycle Design",
+        "4-Speed Semi-Automatic Gearbox (No Clutch Lever)",
+        "High-Rise Chrome Handlebars",
+        "Full Road-Legal Style Lighting & Indicators",
+        "Chrome Side Mirrors & Fender Trims",
+        "Hydraulic Disc Brakes Front & Rear"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "inStock": true,
+      "category": "Dirt Bikes"
     }
   ],
   "heroImages": [
