@@ -877,11 +877,9 @@ const bikesData = [
 ];
 
 const heroImages = [
-  "./public/products/500cc-atv-p1.png",
-  "./public/products/300cc-panther-atv-p1.png",
-  "./public/products/200cc-spark-atv-p1.png",
-  "./public/products/26-inches-bmw-foldable-bicyle-p1.png",
-  "./public/products/26-inches-foldable-fat-bicycle-p1.png"
+  "./public/products/125cc-monkey-bike-p1.jpg",
+  "./public/products/dirt-plus-50cc-p1.jpg",
+  "./public/products/super-motocross-125cc-p1.jpg"
 ];
 
 const categories = [

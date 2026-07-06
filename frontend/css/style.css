@@ -2324,3 +2324,16 @@ textarea.form-input {
 .blog-card:hover .blog-read-more i {
   transform: translateX(5px);
 }
+
+/* Mobile Image Crop Fixes */
+@media (max-width: 768px) {
+  .product-card-img {
+    object-fit: contain !important;
+  }
+  .gallery-main-img {
+    object-fit: contain !important;
+  }
+  .gallery-thumb {
+    object-fit: contain !important;
+  }
+}
