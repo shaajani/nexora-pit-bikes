@@ -1,7 +1,7 @@
 {
   "bikes": [
     {
-      "id": "bike-20",
+      "id": "bike-1",
       "name": "MINI MOUZER ATV",
       "price": "₹45,000",
       "shortDescription": "Sporty 50cc Mini Mouzer ATV with a 2-stroke petrol engine, automatic transmission, and all disc brakes.",
@@ -44,7 +44,7 @@
       "category": "ATV"
     },
     {
-      "id": "bike-14",
+      "id": "bike-2",
       "name": "DIRT BIKE",
       "price": "₹26,000",
       "shortDescription": "Starter 50cc 2-stroke dirt bike with automatic transmission, self start + pull start, and all disc brakes.",
@@ -89,7 +89,7 @@
       "category": "Dirt Bikes"
     },
     {
-      "id": "bike-6",
+      "id": "bike-3",
       "name": "MINI NEOPLUS",
       "price": "₹49,000",
       "shortDescription": "Premium 50cc Mini Neoplus ATV with a 2-stroke petrol engine, automatic transmission, and all disc brakes.",
@@ -138,7 +138,7 @@
       "category": "ATV"
     },
     {
-      "id": "bike-19",
+      "id": "bike-4",
       "name": "MINI NEO ATV",
       "price": "₹45,000",
       "shortDescription": "Vibrant 50cc Mini Neo ATV with a 2-stroke petrol engine, automatic transmission, and all disc brakes.",
@@ -184,7 +184,7 @@
       "category": "ATV"
     },
     {
-      "id": "bike-8",
+      "id": "bike-5",
       "name": "PIT BIKE",
       "price": "₹85,000",
       "shortDescription": "Powerful 125cc Four-Stroke Pit Bike with automatic transmission, self start, and all disc brakes.",
