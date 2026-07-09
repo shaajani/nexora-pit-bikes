@@ -1,5 +1,47 @@
 {
   "bikes": [
+
+     {
+      "id": "bike-5",
+      "name": "beast ATV",
+      "shortDescription": "Sporty 500cc beast ATV with a 2-stroke petrol engine, automatic transmission, and all disc brakes.",
+      "fullDescription": "The 500cc beast ATV is designed for kids and teens who want an aggressive off-road look. With front and rear carrier grids, high-performance disc brakes, and automatic twist-and-go acceleration, it offers thrilling yet approachable trail action.",
+      "images": [
+        "./public/products/beast atv-1.jpg",
+        "./public/products/beast atv-2.jpg",
+        "./public/products/beast atv-3.jpg",
+        "./public/products/beast atv-4.jpg",
+        "./public/products/beast atv-5.jpg"
+      ],
+      "specifications": {
+        "Engine Type": "49cc, Single Cylinder, 2-Stroke, Air-Cooled",
+        "Transmission": "Automatic",
+        "Starter System": "Self Start + Pull Start",
+        "Braking System": "Front & Rear Disc Brakes",
+        "Suspension": "Dual Front & Single Rear Spring Absorber",
+        "Tyres": "4.10-6 (Front) / 13x5.00-6 (Rear)",
+        "Drive Train": "Chain Drive",
+        "Fuel Capacity": "1 L",
+        "Seat Height": "530 mm",
+        "Max Speed": "45 km/h",
+        "Max Load Capacity": "110 kg"
+      },
+      "features": [
+        "Automatic Centrifugal Clutch",
+        "Key Switch & Pull Starter",
+        "Front & Rear Utility Racks",
+        "Non-slip Footwells",
+        "Vibrant Accent Rims"
+      ],
+      "colors": [
+        "Black",
+        "Red",
+        "Blue",
+        "White"
+      ],
+      "inStock": true,
+      "category": "ATV"
+    },
     {
       "id": "bike-1",
       "name": "MINI MOUZER ATV",
