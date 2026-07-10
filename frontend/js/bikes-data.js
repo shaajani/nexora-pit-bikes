@@ -752,9 +752,9 @@ const bikesData = [
   },
   {
     id: "bike-3",
-    name: "26 Inches Fat Tire Jaguar Model Bicycle",
+    name: "26 Inches Fat Tyre Jaguar Model Bicycle",
     shortDescription: "Premium 26-inch fat tyre bicycle designed for maximum grip and off-road adventure.",
-    fullDescription: "The 26 Inches Fat Tire Jaguar Model Bicycle is built for riders who want to tackle extreme terrains with confidence. Sporting massive 26\" x 4.0\" off-road tyres, a heavy-duty steel frame, and responsive front and rear disc brakes, it absorbs trail vibrations and dominates mud, sand, and gravel.",
+    fullDescription: "The 26 Inches Fat Tyre Jaguar Model Bicycle is built for riders who want to tackle extreme terrains with confidence. Sporting massive 26\" x 4.0\" off-road tyres, a heavy-duty steel frame, and responsive front and rear disc brakes, it absorbs trail vibrations and dominates mud, sand, and gravel.",
     images: [
       "./public/products/26-inches-fat-tyre-jaguar-model-bicycle-p1.png",
       "./public/products/26-inches-fat-tyre-jaguar-model-bicycle-p2.png",
@@ -789,9 +789,9 @@ const bikesData = [
   },
   {
     id: "bike-4",
-    name: "26 Inches Fat Tire Foldable Macwheel Bicycle",
+    name: "26 Inches Fat Tyre Foldable Magwheel Bicycle",
     shortDescription: "Premium folding bicycle with stylish 3-spoke mag wheels and full suspension comfort.",
-    fullDescription: "The 26 Inches Fat Tire Foldable Macwheel Bicycle delivers an unmatched combination of luxury styling and engineering. Featuring iconic 3-spoke alloy mag wheels, a dual-suspension frame, and a folding mechanism, it is the ultimate cruiser for commuters and urban adventurers.",
+    fullDescription: "The 26 Inches Fat Tyre Foldable Magwheel Bicycle delivers an unmatched combination of luxury styling and engineering. Featuring iconic 3-spoke alloy mag wheels, a dual-suspension frame, and a folding mechanism, it is the ultimate cruiser for commuters and urban adventurers.",
     images: [
       "./public/products/26-inches-foldable-magwheel-fat-bicycle-p1.png",
       "./public/products/26-inches-foldable-magwheel-fat-bicycle-p2.png",
@@ -817,7 +817,7 @@ const bikesData = [
       "Folding Dual-Suspension Frame",
       "21-Speed Shimano Gearing System",
       "Front & Rear Disc Brakes",
-      "Macwheel Styling"
+      "Magwheel Styling"
     ],
     colors: ["Red", "Light Blue", "White", "Black"],
     inStock: true,
