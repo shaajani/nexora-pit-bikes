@@ -390,6 +390,45 @@
       "inStock": true,
       "category": "Dirt Bikes"
     },
+    {
+      "id": "bike-20",
+      "name": "135cc neo plus atv",
+      "shortDescription": "Premium 135cc Neoplus ATV with backrest, handguard, digital speedometer, remote, and LED lights with extra spotlights.",
+      "fullDescription": "The 135cc Neoplus ATV is designed for riders seeking the ultimate off-road adventure. Outfitted with high-utility features including a backrest, handguard, digital speedometer, remote control, and powerful LED headlights coupled with dual extra spotlights, it is built to deliver top-tier trail performance and convenience.",
+      "images": [
+        "./public/products/media__1783403320261_page_1.png",
+        "./public/products/media__1783403320261_page_2.png",
+        "./public/products/media__1783403320261_page_3.png",
+        "./public/products/media__1783403320261_page_4.png",
+        "./public/products/media__1783403320261_page_5.png"
+      ],
+      "specifications": {
+        "Engine Type": "135cc, Single Cylinder, 4-Stroke, Air-Cooled",
+        "Transmission": "Fully Automatic",
+        "Starter System": "Electric Self Start",
+        "Braking System": "Front Drum & Rear Hydraulic Disc Brakes",
+        "Suspension": "Dual Front A-Arm & Rear Monoshock",
+        "Tyres": "Off-Road Knobby Tyres",
+        "Drive Train": "Chain Drive",
+        "Fuel Capacity": "4.5 L",
+        "Seat Height": "720 mm",
+        "Max Speed": "55 km/h",
+        "Max Load Capacity": "120 kg",
+        "Available Colors": "Red, Blue, Black, White",
+        "Warranty": "6 Months"
+      },
+      "features": [
+        "Backrest and Handguard",
+        "Digital Speedometer",
+        "Remote Control Kill Switch",
+        "LED Light and 2 Extra Spotlights",
+        "Durable Front & Rear Utility Racks",
+        "Non-slip Footrests"
+      ],
+      "colors": ["Red", "Blue", "Black", "White"],
+      "inStock": true,
+      "category": "ATV"
+    },
 
     {
       "id": "bike-19",
