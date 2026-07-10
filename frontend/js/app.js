@@ -374,22 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   revealElements.forEach(el => revealObserver.observe(el));
 
-  // --- Zoom on Hover Engine for Main Gallery Image ---
-  const galleryMainWrapper = document.querySelector('.gallery-main-wrapper');
-  if (galleryMainWrapper && mainGalleryImg) {
-    galleryMainWrapper.addEventListener('mousemove', (e) => {
-      const rect = e.currentTarget.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      mainGalleryImg.style.transformOrigin = `${x}% ${y}%`;
-      mainGalleryImg.style.transform = 'scale(2.2)';
-    });
 
-    galleryMainWrapper.addEventListener('mouseleave', () => {
-      mainGalleryImg.style.transformOrigin = 'center center';
-      mainGalleryImg.style.transform = 'scale(1)';
-    });
-  }
 
   // --- Initial Render ---
   renderCatalog();

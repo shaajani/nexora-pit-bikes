@@ -837,15 +837,7 @@ select {
   background: linear-gradient(145deg, rgba(15, 15, 15, 0.85), rgba(5, 5, 5, 0.95));
 }
 
-.product-card:hover {
-  transform: translateY(-8px);
-  border-color: var(--primary-red);
-  box-shadow: 0 12px 35px rgba(220, 38, 38, 0.25);
-}
 
-.product-card:hover .product-card-img {
-  transform: scale(1.06);
-}
 
 
 .product-img-wrapper {
@@ -2380,12 +2372,12 @@ body.modal-open > *:not(.modal-overlay):not(.chatbot-widget-container):not(.floa
 
 /* Hover Zoom Effect Styles */
 .gallery-main-wrapper {
-  cursor: zoom-in;
+  cursor: default;
   overflow: hidden;
 }
 
 .gallery-main-img {
-  transition: transform 0.15s ease-out, opacity 0.3s ease;
+  transition: opacity 0.3s ease;
   transform-origin: center center;
 }
 

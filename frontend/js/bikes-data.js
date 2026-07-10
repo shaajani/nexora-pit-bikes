@@ -521,12 +521,12 @@ const bikesData = [
     shortDescription: "Robust 135cc Phantom ATV with 3-speed automatic transmission, hydraulic brakes, digital speedometer, backrest, handguard, remote, and LED lights.",
     fullDescription: "The 135cc Phantom ATV is a heavy-duty off-road machine built for durability and power. Featuring a 3-speed automatic transmission (1 Forward + 1 Neutral + 1 Reverse), hydraulic absorbers, and custom colourful wheel edge hubs, it is equipped with a digital speedometer, backrest, handguards, review mirrors, and extra spotlights.",
     images: [
-      "./public/products/media__1783403320347_page_1.png",
-      "./public/products/media__1783403320347_page_3.png",
-      "./public/products/media__1783403320347_page_4.png",
-      "./public/products/media__1783403320347_page_5.png",
-      "./public/products/media__1783403320347_page_6.png",
-      "./public/products/media__1783403320347_page_7.png"
+      "./public/products/super-phantom-atv-p1.png",
+      "./public/products/super-phantom-atv-p3.png",
+      "./public/products/super-phantom-atv-p4.png",
+      "./public/products/super-phantom-atv-p5.png",
+      "./public/products/super-phantom-atv-p6.png",
+      "./public/products/super-phantom-atv-p7.png"
     ],
     specifications: {
       "Engine Type": "135cc, Single Cylinder, 4-Stroke, Air-Cooled",
@@ -752,9 +752,9 @@ const bikesData = [
   },
   {
     id: "bike-3",
-    name: "Mumbai Fat Bicycle",
+    name: "26 Inches Fat Tire Jaguar Model Bicycle",
     shortDescription: "Premium 26-inch fat tyre bicycle designed for maximum grip and off-road adventure.",
-    fullDescription: "The Mumbai Fat Bicycle is built for riders who want to tackle extreme terrains with confidence. Sporting massive 26\" x 4.0\" off-road tyres, a heavy-duty steel frame, and responsive front and rear disc brakes, it absorbs trail vibrations and dominates mud, sand, and gravel.",
+    fullDescription: "The 26 Inches Fat Tire Jaguar Model Bicycle is built for riders who want to tackle extreme terrains with confidence. Sporting massive 26\" x 4.0\" off-road tyres, a heavy-duty steel frame, and responsive front and rear disc brakes, it absorbs trail vibrations and dominates mud, sand, and gravel.",
     images: [
       "./public/products/26-inches-fat-tyre-jaguar-model-bicycle-p1.png",
       "./public/products/26-inches-fat-tyre-jaguar-model-bicycle-p2.png",
@@ -789,9 +789,9 @@ const bikesData = [
   },
   {
     id: "bike-4",
-    name: "Mercedes-Benz Foldable Bicycle",
+    name: "26 Inches Fat Tire Foldable Macwheel Bicycle",
     shortDescription: "Premium folding bicycle with stylish 3-spoke mag wheels and full suspension comfort.",
-    fullDescription: "The Mercedes-Benz Foldable Bicycle delivers an unmatched combination of luxury styling and engineering. Featuring iconic 3-spoke alloy mag wheels, a dual-suspension frame, and a folding mechanism, it is the ultimate cruiser for commuters and urban adventurers.",
+    fullDescription: "The 26 Inches Fat Tire Foldable Macwheel Bicycle delivers an unmatched combination of luxury styling and engineering. Featuring iconic 3-spoke alloy mag wheels, a dual-suspension frame, and a folding mechanism, it is the ultimate cruiser for commuters and urban adventurers.",
     images: [
       "./public/products/26-inches-foldable-magwheel-fat-bicycle-p1.png",
       "./public/products/26-inches-foldable-magwheel-fat-bicycle-p2.png",
@@ -817,7 +817,7 @@ const bikesData = [
       "Folding Dual-Suspension Frame",
       "21-Speed Shimano Gearing System",
       "Front & Rear Disc Brakes",
-      "Mercedes-Benz Styling"
+      "Macwheel Styling"
     ],
     colors: ["Red", "Light Blue", "White", "Black"],
     inStock: true,
