@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inject Text Content
     detailName.innerText = bike.name;
-    detailDesc.innerText = bike.fullDescription;
+    detailDesc.innerText = bike.shortDescription;
     
     // In stock indicator
     if (bike.inStock) {
@@ -208,13 +208,29 @@ document.addEventListener('DOMContentLoaded', () => {
       detailFeatures.appendChild(li);
     });
 
-    // Render Specifications Table
+    // Render Specifications Table with exact fields in order
+    const specFields = [
+      "Engine Type",
+      "Transmission",
+      "Starter System",
+      "Braking System",
+      "Suspension",
+      "Tyres",
+      "Drive Train",
+      "Fuel Capacity",
+      "Seat Height",
+      "Max Speed",
+      "Max Load Capacity",
+      "Available Colors",
+      "Warranty"
+    ];
     detailSpecsTable.innerHTML = '';
-    Object.keys(bike.specifications).forEach(key => {
+    specFields.forEach(field => {
+      const val = bike.specifications[field] || 'N/A';
       const tr = document.createElement('tr');
       tr.innerHTML = `
-        <td class="spec-name">${key}</td>
-        <td class="spec-val">${bike.specifications[key]}</td>
+        <td class="spec-name">${field}</td>
+        <td class="spec-val">${val}</td>
       `;
       detailSpecsTable.appendChild(tr);
     });
@@ -242,8 +258,9 @@ document.addEventListener('DOMContentLoaded', () => {
       galleryThumbs.appendChild(thumb);
     });
 
-    // Display Modal
+    // Display Modal & Lock Scroll/Blur Background
     detailsModal.classList.add('active');
+    document.body.classList.add('modal-open');
   }
 
   // Update image slideshow gallery state
@@ -285,6 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Close Details Modal
   window.closeDetailsModal = function() {
     detailsModal.classList.remove('active');
+    document.body.classList.remove('modal-open');
     activeDetailsBike = null;
   };
 
@@ -355,6 +373,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   revealElements.forEach(el => revealObserver.observe(el));
+
+  // --- Zoom on Hover Engine for Main Gallery Image ---
+  const galleryMainWrapper = document.querySelector('.gallery-main-wrapper');
+  if (galleryMainWrapper && mainGalleryImg) {
+    galleryMainWrapper.addEventListener('mousemove', (e) => {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      mainGalleryImg.style.transformOrigin = `${x}% ${y}%`;
+      mainGalleryImg.style.transform = 'scale(2.2)';
+    });
+
+    galleryMainWrapper.addEventListener('mouseleave', () => {
+      mainGalleryImg.style.transformOrigin = 'center center';
+      mainGalleryImg.style.transform = 'scale(1)';
+    });
+  }
 
   // --- Initial Render ---
   renderCatalog();
