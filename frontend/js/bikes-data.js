@@ -135,7 +135,6 @@ const bikesData = [
     fullDescription: "The 135cc Super Phantom ATV is a heavy-duty, fully loaded off-road utility quad. Boasting a robust 135cc 4-stroke single cylinder air-cooled engine with automatic transmission (3 speeds: 1F+1N+1R), it is built for extreme trail adventure and durability. Features include a structural outer roll cage, custom aluminum wheels, a comfortable passenger backrest, handguards, rearview mirrors, a digital speedometer, remote control, and high-power LED lights with extra spotlights.",
     images: [
       "./public/products/super-phantom-atv-p1.png",
-      "./public/products/super-phantom-atv-p2.png",
       "./public/products/super-phantom-atv-p3.png",
       "./public/products/super-phantom-atv-p4.png",
       "./public/products/super-phantom-atv-p5.png",
@@ -484,12 +483,12 @@ const bikesData = [
     shortDescription: "Robust 135cc Phantom ATV with 3-speed automatic transmission, hydraulic brakes, digital speedometer, backrest, handguard, remote, and LED lights.",
     fullDescription: "The 135cc Phantom ATV is a heavy-duty off-road machine built for durability and power. Featuring a 3-speed automatic transmission (1 Forward + 1 Neutral + 1 Reverse), hydraulic absorbers, and custom colourful wheel edge hubs, it is equipped with a digital speedometer, backrest, handguards, review mirrors, and extra spotlights.",
     images: [
-      "./public/products/super-phantom-atv-p1.png",
-      "./public/products/super-phantom-atv-p3.png",
-      "./public/products/super-phantom-atv-p4.png",
-      "./public/products/super-phantom-atv-p5.png",
-      "./public/products/super-phantom-atv-p6.png",
-      "./public/products/super-phantom-atv-p7.png"
+      "./public/products/camo-phantom-atv-p1.png",
+      "./public/products/camo-phantom-atv-p3.png",
+      "./public/products/camo-phantom-atv-p4.png",
+      "./public/products/camo-phantom-atv-p5.png",
+      "./public/products/camo-phantom-atv-p6.png",
+      "./public/products/camo-phantom-atv-p7.png"
     ],
     specifications: {
       "Engine Type": "135cc, Single Cylinder, 4-Stroke, Air-Cooled",
