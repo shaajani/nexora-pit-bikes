@@ -479,42 +479,7 @@
       "inStock": true,
       "category": "ATV"
     },
-    {
-      "id": "bike-12",
-      "name": "135cc PHANTOM ATV",
-      "shortDescription": "Robust 135cc Phantom ATV with 3-speed automatic transmission, hydraulic brakes, digital speedometer, backrest, handguard, remote, and LED lights.",
-      "fullDescription": "The 135cc Phantom ATV is a heavy-duty off-road machine built for durability and power. Featuring a 3-speed automatic transmission (1 Forward + 1 Neutral + 1 Reverse), hydraulic absorbers, and custom colourful wheel edge hubs, it is equipped with a digital speedometer, backrest, handguards, review mirrors, and extra spotlights.",
-      "images": [
-        "C:\Users\LENOVO\Downloads\updated com\135cc Phantom ATV 1.pdf"
-        
-      ],
-      "specifications": {
-        "Engine Type": "135cc, Single Cylinder, 4-Stroke, Air-Cooled",
-        "Transmission": "3 Speeds (1F + 1N + 1R)",
-        "Starter System": "Electric Self Start",
-        "Braking System": "Front Drum Brake & Rear Hydraulic Disc Brake",
-        "Suspension": "All Hydraulic Absorbers",
-        "Tyres": "19X7-8 (Front) / 18X9.5-8 (Rear) with Colourful Edges",
-        "Drive Train": "Chain Drive",
-        "Fuel Capacity": "4.5 L",
-        "Seat Height": "800 mm",
-        "Max Speed": "45 km/h",
-        "Max Load Capacity": "150 kg",
-        "Available Colors": "Green Camo, White, Blue, Yellow, Red, Black",
-        "Warranty": "6 Months"
-      },
-      "features": [
-        "Backrest and Handguards",
-        "Digital Speedometer",
-        "Review Mirrors",
-        "Remote Control Shutoff",
-        "LED Light and Extra Spotlights",
-        "4-Hole Hub Wheel Accent Rims"
-      ],
-      "colors": ["Green Camo, White, Blue, Yellow, Red, Black"],
-      "inStock": true,
-      "category": "ATV"
-    },
+  
     {
       "id": "bike-21",
       "name": "MINI MOUZER ATV",
