@@ -46,6 +46,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -1317,6 +1318,7 @@ textarea.form-input {
 }
 
 .modal-content-wrapper {
+  margin: auto;
   width: 100%;
   max-width: 1000px;
   border-radius: var(--radius-lg);
@@ -1325,12 +1327,16 @@ textarea.form-input {
   max-height: 90vh;
   display: flex;
   flex-direction: column;
-  transform: scale(0.95);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 768px) {
+  .modal-content-wrapper {
+    max-height: 94vh;
+  }
 }
 
 .modal-overlay.active .modal-content-wrapper {
-  transform: scale(1);
+  transform: none;
 }
 
 .modal-close-btn {
@@ -2360,14 +2366,9 @@ textarea.form-input {
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95);
 }
 
-/* Scroll lock & Page blur when modal is active */
+/* Scroll lock when modal is active */
 body.modal-open {
   overflow: hidden;
-}
-
-body.modal-open > *:not(.modal-overlay):not(.chatbot-widget-container):not(.floating-widget-bar) {
-  filter: blur(8px);
-  transition: filter 0.3s ease;
 }
 
 /* Hover Zoom Effect Styles */
@@ -2395,10 +2396,32 @@ body.modal-open > *:not(.modal-overlay):not(.chatbot-widget-container):not(.floa
   padding-top: 15px;
 }
 
-/* Crop out the left-side text/specifications from the dirt bike, pit bike, and mini mouzer ATV product images in all sizes */
-img[src*="dirt-bike"],
-img[src*="pit-bike"],
-img[src*="mini-mouzer"] {
-  object-fit: cover !important;
-  object-position: 85% center !important;
+
+
+/* Prevent zooming, scaling, and selection gestures on details modal across all devices */
+.modal-overlay,
+.modal-content-wrapper,
+.modal-scrollable-body {
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.gallery-main-wrapper,
+.gallery-main-img,
+.gallery-nav-btn,
+.gallery-thumbnails,
+.gallery-thumb,
+.modal-close-btn,
+.btn {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Disable all animations and transitions inside the details modal to make it 100% static */
+#details-modal,
+#details-modal * {
+  transition: none !important;
+  animation: none !important;
 }

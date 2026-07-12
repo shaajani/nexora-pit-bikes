@@ -267,19 +267,14 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateMainImage() {
     if (!activeDetailsBike) return;
     
-    // Crossfade effect: trigger slight fade out then update source
-    mainGalleryImg.style.opacity = '0.3';
-    setTimeout(() => {
-      mainGalleryImg.src = activeDetailsBike.images[activeGalleryIndex];
-      mainGalleryImg.style.opacity = '1';
-    }, 100);
+    mainGalleryImg.src = activeDetailsBike.images[activeGalleryIndex];
 
     // Update active thumbnail borders
     const thumbs = galleryThumbs.querySelectorAll('.gallery-thumb');
     thumbs.forEach((t, idx) => {
       if (idx === activeGalleryIndex) {
         t.classList.add('active');
-        t.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        t.scrollIntoView({ behavior: 'auto', block: 'nearest', inline: 'center' });
       } else {
         t.classList.remove('active');
       }
