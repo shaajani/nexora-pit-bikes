@@ -140,7 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Mini specifications list
       let miniSpecsHtml = '';
-      const specKeys = Object.keys(bike.specifications).slice(0, 3);
+      const excludedMiniSpecs = ["Max Speed", "Max Load Capacity", "Seat Height", "Tyres", "Braking System"];
+      const specKeys = Object.keys(bike.specifications)
+        .filter(key => !excludedMiniSpecs.includes(key))
+        .slice(0, 3);
       specKeys.forEach(key => {
         miniSpecsHtml += `<span class="mini-spec-badge">${key}: ${bike.specifications[key]}</span>`;
       });
@@ -213,14 +216,9 @@ document.addEventListener('DOMContentLoaded', () => {
       "Engine Type",
       "Transmission",
       "Starter System",
-      "Braking System",
       "Suspension",
-      "Tyres",
       "Drive Train",
       "Fuel Capacity",
-      "Seat Height",
-      "Max Speed",
-      "Max Load Capacity",
       "Available Colors",
       "Warranty"
     ];
