@@ -2425,3 +2425,115 @@ body.modal-open {
   transition: none !important;
   animation: none !important;
 }
+
+/* Optimize Details Modal layout to fit on screen and be completely visible without excessive scrolling */
+#details-modal .modal-scrollable-body {
+  padding: 24px 30px;
+}
+
+#details-modal .details-grid {
+  gap: 24px;
+}
+
+#details-modal .details-info-panel h2 {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+#details-modal .details-desc-text {
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+#details-modal .details-specs-table-wrapper {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#details-modal .details-subtitle {
+  font-size: 0.75rem;
+  margin-bottom: 4px;
+}
+
+#details-modal .specs-table {
+  margin-top: 5px;
+}
+
+#details-modal .specs-table tbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+}
+
+#details-modal .specs-table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 3px 0;
+}
+
+#details-modal .specs-table td {
+  padding: 2px 0 !important;
+  font-size: 0.78rem;
+}
+
+#details-modal .spec-name {
+  width: auto;
+  font-size: 0.7rem;
+}
+
+#details-modal .spec-val {
+  text-align: right;
+}
+
+#details-modal .details-modal-actions {
+  margin-top: 15px;
+}
+
+#details-modal .btn-primary {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+/* Adjustments for smaller/mobile screens to fit the card directly on screen */
+@media (max-width: 768px) {
+  #details-modal .modal-scrollable-body {
+    padding: 16px;
+  }
+  
+  #details-modal .details-grid {
+    gap: 12px;
+  }
+
+  #details-modal .gallery-main-wrapper {
+    padding-top: 48%; /* Make gallery compact on mobile to save vertical space */
+  }
+
+  #details-modal .gallery-thumb {
+    width: 50px;
+    height: 35px;
+  }
+
+  #details-modal .gallery-thumbnails {
+    margin-top: 8px;
+    padding-bottom: 2px;
+  }
+
+  #details-modal .details-info-panel h2 {
+    font-size: 1.2rem;
+  }
+
+  #details-modal .specs-table tbody {
+    grid-template-columns: 1fr 1fr; /* Keep 2-column specs even on mobile to avoid scrolling */
+    gap: 4px 10px;
+  }
+
+  #details-modal .specs-table td {
+    font-size: 0.72rem;
+  }
+  
+  #details-modal .spec-name {
+    font-size: 0.65rem;
+  }
+}
