@@ -2358,6 +2358,34 @@ textarea.form-input {
   }
 }
 
+/* Crop Monkey Bike images precisely, removing surrounding whitespace and focusing on the vehicle */
+img[src*="monkey-bike"] {
+  object-fit: cover !important;
+  object-position: center 38% !important;
+}
+
+/* Crop out whitespaces and text for Mini Motor ATV, dirt bike, pit bike, and BMW foldable bicycle */
+img[src*="media__1783403320328"],
+img[src*="media__1783403320412"],
+img[src*="dirt-bike"],
+img[src*="dirt-plus"],
+img[src*="pit-bike"],
+img[src*="super-motocross"],
+img[src*="motocross-pro"],
+img[src*="mini-mouzer"] {
+  object-fit: cover !important;
+  object-position: 85% center !important;
+}
+
+
+/* Crop the text from the BMW Foldable Bicycle image */
+img[src*="bmw-foldable-bicyle"] {
+  object-fit: cover !important;
+  object-position: center 35% !important;
+}
+
+
+
 /* Premium Dark Showroom Details Modal Overrides */
 #details-modal .modal-content-wrapper {
   background-color: #0d0d0d !important;
