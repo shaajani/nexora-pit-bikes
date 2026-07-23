@@ -1323,7 +1323,7 @@ textarea.form-input {
   max-width: 1000px;
   border-radius: var(--radius-lg);
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   height: auto;
   max-height: none;
   display: flex;
