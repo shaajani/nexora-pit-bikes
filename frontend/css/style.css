@@ -816,13 +816,59 @@ select {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
   gap: 30px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .products-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .product-card {
+    border-radius: var(--radius-md) !important;
+  }
+  .product-img-wrapper {
+    padding-top: 52% !important;
+  }
+  .product-card-img {
+    padding: 8px !important;
+  }
+  .product-info {
+    padding: 12px !important;
+  }
+  .product-card-title {
+    font-size: 0.95rem !important;
+  }
+  .product-card-price {
+    font-size: 0.95rem !important;
+  }
+  .product-card-desc {
+    font-size: 0.75rem !important;
+    margin-bottom: 12px !important;
+    height: 34px !important;
+  }
+  .product-mini-specs {
+    gap: 4px !important;
+    margin-bottom: 12px !important;
+  }
+  .mini-spec-badge {
+    font-size: 0.6rem !important;
+    padding: 2px 6px !important;
+  }
+  .product-card-actions {
+    grid-template-columns: 1fr !important;
+    gap: 6px !important;
+  }
+  .product-card-actions .btn {
+    padding: 6px 8px !important;
+    font-size: 0.65rem !important;
+  }
+  .product-tag {
+    top: 8px !important;
+    right: 8px !important;
+    padding: 2px 6px !important;
+    font-size: 0.55rem !important;
   }
 }
 
@@ -844,7 +890,7 @@ select {
 .product-img-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 65%;
+  padding-top: 52%;
   /* Aspect ratio aspect-videoish */
   overflow: hidden;
   background-color: #050505;
@@ -2360,13 +2406,13 @@ textarea.form-input {
   }
 }
 
-/* Crop Monkey Bike images precisely, removing surrounding whitespace and focusing on the vehicle */
+/* Use contain to avoid cropping Monkey Bike images */
 img[src*="monkey-bike"] {
-  object-fit: cover !important;
-  object-position: center 38% !important;
+  object-fit: contain !important;
+  object-position: center !important;
 }
 
-/* Crop out whitespaces and text for Mini Motor ATV, dirt bike, pit bike, and BMW foldable bicycle */
+/* Use contain to avoid cropping Mini Motor ATV, dirt bike, pit bike, and BMW foldable bicycle */
 img[src*="media__1783403320328"],
 img[src*="media__1783403320412"],
 img[src*="dirt-bike"],
@@ -2375,15 +2421,15 @@ img[src*="pit-bike"],
 img[src*="super-motocross"],
 img[src*="motocross-pro"],
 img[src*="mini-mouzer"] {
-  object-fit: cover !important;
-  object-position: 85% center !important;
+  object-fit: contain !important;
+  object-position: center !important;
 }
 
 
-/* Crop the text from the BMW Foldable Bicycle image */
+/* Use contain to avoid cropping BMW Foldable Bicycle image */
 img[src*="bmw-foldable-bicyle"] {
-  object-fit: cover !important;
-  object-position: center 35% !important;
+  object-fit: contain !important;
+  object-position: center !important;
 }
 
 
