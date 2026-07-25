@@ -832,7 +832,7 @@ select {
     padding-top: 52% !important;
   }
   .product-card-img {
-    padding: 8px !important;
+    padding: 0 !important;
   }
   .product-info {
     padding: 12px !important;
@@ -912,7 +912,9 @@ select {
   height: 100%;
   object-fit: contain !important;
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-  padding: 15px;
+  padding: 0;
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center;
 }
 
 
@@ -1453,7 +1455,8 @@ textarea.form-input {
   background-color: #050505;
 }
 
-.gallery-main-img {
+.gallery-main-img,
+#gallery-main {
   position: absolute;
   top: 0;
   left: 0;
@@ -1461,6 +1464,8 @@ textarea.form-input {
   height: 100%;
   object-fit: contain !important;
   transition: opacity 0.3s ease;
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center;
 }
 
 .gallery-nav-btn {
@@ -1500,13 +1505,14 @@ textarea.form-input {
   margin-top: 12px;
   overflow-x: auto;
   padding-bottom: 6px;
+  height: 58px;
 }
 
 .gallery-thumb {
   width: 70px;
   height: 50px;
   border-radius: var(--radius-sm);
-  object-fit: contain !important;
+  object-fit: cover !important;
   border: 2px solid transparent;
   cursor: pointer;
   opacity: 0.6;
@@ -2397,12 +2403,14 @@ textarea.form-input {
 @media (max-width: 768px) {
   .product-card-img {
     object-fit: contain !important;
+    transform: scale(1.3) translateY(-8%) !important;
   }
   .gallery-main-img {
     object-fit: contain !important;
+    transform: scale(1.3) translateY(-8%) !important;
   }
   .gallery-thumb {
-    object-fit: contain !important;
+    object-fit: cover !important;
   }
 }
 
@@ -2410,6 +2418,8 @@ textarea.form-input {
 img[src*="monkey-bike"] {
   object-fit: contain !important;
   object-position: center !important;
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center !important;
 }
 
 /* Use contain to avoid cropping Mini Motor ATV, dirt bike, pit bike, and BMW foldable bicycle */
@@ -2423,6 +2433,8 @@ img[src*="motocross-pro"],
 img[src*="mini-mouzer"] {
   object-fit: contain !important;
   object-position: center !important;
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center !important;
 }
 
 
@@ -2430,6 +2442,8 @@ img[src*="mini-mouzer"] {
 img[src*="bmw-foldable-bicyle"] {
   object-fit: contain !important;
   object-position: center !important;
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center !important;
 }
 
 
@@ -2567,12 +2581,28 @@ body.modal-open {
 
 /* Adjustments for smaller/mobile screens to fit the card directly on screen */
 @media (max-width: 768px) {
+  .modal-overlay {
+    padding: 12px 8px !important;
+  }
+
   #details-modal .modal-scrollable-body {
     padding: 16px;
   }
   
   #details-modal .details-grid {
-    gap: 12px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .details-gallery {
+    order: 1 !important;
+    width: 100% !important;
+  }
+
+  .details-info-panel {
+    order: 2 !important;
+    width: 100% !important;
   }
 
   #details-modal .gallery-main-wrapper {
@@ -2582,15 +2612,22 @@ body.modal-open {
   #details-modal .gallery-thumb {
     width: 50px;
     height: 35px;
+    object-fit: cover !important;
   }
 
   #details-modal .gallery-thumbnails {
     margin-top: 8px;
     padding-bottom: 2px;
+    height: 40px;
   }
 
   #details-modal .details-info-panel h2 {
     font-size: 1.2rem;
+  }
+
+  .features-list,
+  #detail-features {
+    grid-template-columns: 1fr !important;
   }
 
   #details-modal .specs-table tbody {
@@ -2605,4 +2642,18 @@ body.modal-open {
   #details-modal .spec-name {
     font-size: 0.65rem;
   }
+}
+
+@media (max-width: 600px) {
+  #details-modal .specs-table tbody {
+    grid-template-columns: 1fr !important;
+    gap: 4px 0 !important;
+  }
+}
+
+#details-modal .gallery-main-img,
+#details-modal #gallery-main,
+#gallery-main {
+  transform: scale(1.3) translateY(-8%) !important;
+  transform-origin: center center !important;
 }
