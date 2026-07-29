@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const galleryNext = document.getElementById('gallery-next');
   const galleryThumbs = document.getElementById('gallery-thumbs');
   
+  // Lightbox Elements
+  const lightboxModal = document.getElementById('lightbox-modal');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxClose = document.getElementById('lightbox-close');
+
   const detailName = document.getElementById('detail-name');
   const detailPrice = document.getElementById('detail-price');
   const detailStock = document.getElementById('detail-stock');
@@ -307,6 +312,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const orderModal = document.getElementById('order-modal');
     if (e.target === orderModal) {
       closeOrderForm();
+    }
+  });
+
+  // --- Full-Screen Image Lightbox Interactions ---
+  mainGalleryImg.addEventListener('click', () => {
+    if (mainGalleryImg.src) {
+      lightboxImg.src = mainGalleryImg.src;
+      lightboxModal.classList.add('active');
+    }
+  });
+
+  function closeLightbox() {
+    lightboxModal.classList.remove('active');
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+
+  lightboxModal.addEventListener('click', (e) => {
+    if (e.target === lightboxModal || e.target.classList.contains('lightbox-content')) {
+      closeLightbox();
+    }
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeLightbox();
     }
   });
 

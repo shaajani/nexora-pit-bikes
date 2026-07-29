@@ -687,6 +687,14 @@
   <script src="./js/order.js?v=1.0.2"></script>
   <script src="./js/app.js?v=1.0.2"></script>
   <!-- Slide animation engine for Hero slideshow -->
+  <!-- ================= Full-Screen Image Lightbox Modal ================= -->
+  <div class="lightbox-overlay" id="lightbox-modal">
+    <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close Preview">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Full-Screen Product Preview">
+    </div>
+  </div>
+
   <script>
     // Hero crossfade slideshow helper
     document.addEventListener('DOMContentLoaded', () => {
