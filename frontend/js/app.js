@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = 'product-card glass reveal visible';
       
       const stockTag = bike.inStock 
-        ? `<span class="product-tag">In Stock</span>` 
+        ? '' 
         : `<span class="product-tag out-of-stock">Sold Out</span>`;
 
       // Mini specifications list
