@@ -852,7 +852,9 @@ select {
   .product-card-desc {
     font-size: 0.75rem !important;
     margin-bottom: 12px !important;
-    height: 34px !important;
+    height: auto !important;
+    overflow: visible !important;
+    line-height: 1.4 !important;
   }
   .product-mini-specs {
     gap: 4px !important;
@@ -976,12 +978,9 @@ select {
   font-size: 0.875rem;
   color: var(--text-gray-muted);
   margin-bottom: 20px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  height: 44px;
+  line-height: 1.4;
+  height: auto;
+  overflow: visible;
 }
 
 .product-mini-specs {
