@@ -2518,42 +2518,134 @@ body.modal-open {
 }
 
 /* Optimize Details Modal layout to fit on screen and be completely visible without excessive scrolling */
+#details-modal {
+  overflow-x: hidden !important;
+}
+
+#details-modal .modal-content-wrapper {
+  width: 100% !important;
+  max-width: 1000px !important;
+  box-sizing: border-box !important;
+  margin: auto !important;
+}
+
 #details-modal .modal-scrollable-body {
   padding: 24px 30px;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 #details-modal .details-grid {
   gap: 24px;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#details-modal .details-info-panel {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
 }
 
 #details-modal .details-info-panel h2 {
   font-size: 1.5rem;
   margin-bottom: 6px;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  max-width: 100% !important;
+  white-space: normal !important;
+}
+
+#details-modal .details-price-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 #details-modal .details-desc-text {
   font-size: 0.85rem;
   margin-bottom: 12px;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  max-width: 100% !important;
+  white-space: normal !important;
+}
+
+#details-modal .details-colors-row {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#details-modal .colors-wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#details-modal .color-chip {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+  max-width: 100% !important;
+}
+
+#details-modal .details-features-row {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#details-modal .features-list {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#details-modal .features-list li {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  max-width: 100% !important;
+  white-space: normal !important;
 }
 
 #details-modal .details-specs-table-wrapper {
   margin-top: 10px;
   padding-top: 10px;
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 #details-modal .details-subtitle {
   font-size: 0.75rem;
   margin-bottom: 4px;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100% !important;
 }
 
 #details-modal .specs-table {
   margin-top: 5px;
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
 }
 
 #details-modal .specs-table tbody {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px 20px;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 #details-modal .specs-table tr {
@@ -2562,35 +2654,61 @@ body.modal-open {
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   padding: 3px 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  flex-wrap: wrap !important;
 }
 
 #details-modal .specs-table td {
   padding: 2px 0 !important;
   font-size: 0.78rem;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
 }
 
 #details-modal .spec-name {
   width: auto;
   font-size: 0.7rem;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
 }
 
 #details-modal .spec-val {
   text-align: right;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
 }
 
 #details-modal .details-modal-actions {
   margin-top: 15px;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 #details-modal .btn-primary {
   padding: 10px 20px;
   font-size: 0.8rem;
+  width: 100% !important;
+  max-width: 100% !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 /* Adjustments for smaller/mobile screens to fit the card directly on screen */
 @media (max-width: 768px) {
   .modal-overlay {
     padding: 12px 8px !important;
+    overflow-x: hidden !important;
   }
 
   #details-modal .modal-close-btn {
@@ -2602,26 +2720,38 @@ body.modal-open {
 
   #details-modal .modal-scrollable-body {
     padding: 16px;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
   
   #details-modal .details-grid {
     display: flex !important;
     flex-direction: column !important;
     gap: 12px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .details-gallery {
     order: 1 !important;
     width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .details-info-panel {
     order: 2 !important;
     width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   #details-modal .gallery-main-wrapper {
     padding-top: 48%; /* Make gallery compact on mobile to save vertical space */
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   #details-modal .gallery-thumb {
@@ -2634,6 +2764,8 @@ body.modal-open {
     margin-top: 8px;
     padding-bottom: 2px;
     height: 40px;
+    max-width: 100% !important;
+    width: 100% !important;
   }
 
   #details-modal .details-info-panel h2 {
@@ -2643,11 +2775,15 @@ body.modal-open {
   .features-list,
   #detail-features {
     grid-template-columns: 1fr !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   #details-modal .specs-table tbody {
     grid-template-columns: 1fr 1fr; /* Keep 2-column specs even on mobile to avoid scrolling */
     gap: 4px 10px;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   #details-modal .specs-table td {
@@ -2663,6 +2799,8 @@ body.modal-open {
   #details-modal .specs-table tbody {
     grid-template-columns: 1fr !important;
     gap: 4px 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 
