@@ -2552,7 +2552,15 @@ body.modal-open {
 }
 
 #details-modal .details-grid {
-  gap: 24px;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#details-modal .details-gallery {
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
