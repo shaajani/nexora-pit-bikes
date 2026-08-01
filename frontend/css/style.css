@@ -2465,8 +2465,10 @@ img[src*="bmw-foldable-bicyle"] {
 }
 
 /* Scroll lock when modal is active */
+html:has(body.modal-open),
 body.modal-open {
-  overflow: hidden;
+  overflow: hidden !important;
+  height: 100vh !important;
 }
 
 /* Hover Zoom Effect Styles */
@@ -2519,14 +2521,23 @@ body.modal-open {
 
 /* Optimize Details Modal layout to fit on screen and be completely visible without excessive scrolling */
 #details-modal {
+  overflow: hidden !important;
+  overflow-y: hidden !important;
   overflow-x: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 #details-modal .modal-content-wrapper {
   width: 100% !important;
   max-width: 1000px !important;
+  max-height: calc(100vh - 80px) !important;
   box-sizing: border-box !important;
   margin: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
 }
 
 #details-modal .modal-scrollable-body {
@@ -2534,6 +2545,10 @@ body.modal-open {
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  flex: 1 1 auto !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 #details-modal .details-grid {
@@ -2548,6 +2563,7 @@ body.modal-open {
   width: 100% !important;
   box-sizing: border-box !important;
   overflow-x: hidden !important;
+  text-align: left !important;
 }
 
 #details-modal .details-info-panel h2 {
@@ -2718,11 +2734,22 @@ body.modal-open {
     height: 32px !important;
   }
 
+  #details-modal .modal-content-wrapper {
+    max-height: calc(100vh - 24px) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
   #details-modal .modal-scrollable-body {
     padding: 16px;
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    flex: 1 1 auto !important;
+    -webkit-overflow-scrolling: touch;
   }
   
   #details-modal .details-grid {
