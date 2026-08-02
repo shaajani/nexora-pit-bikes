@@ -1053,13 +1053,14 @@ select {
 
 .team-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min(100%, 370px);
+  justify-content: center;
   gap: 20px;
 }
 
 @media (max-width: 480px) {
   .team-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: min(100%, 370px);
     gap: 15px;
   }
 }
