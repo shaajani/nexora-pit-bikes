@@ -832,13 +832,7 @@ const bikesData = [
     shortDescription: "Versatile 300cc Panther ATV — the perfect balance of power, agility, and off-road performance.",
     fullDescription: "The 300cc Panther ATV strikes the perfect balance between raw power and nimble handling, making it the most versatile all-terrain vehicle in our lineup. Its 300cc engine provides ample power for climbing steep inclines and powering through tough terrain, while the lightweight chassis ensures sharp handling and easy maneuverability.",
     images: [
-      "./public/products/300cc-panther-atv-p1.png",
-      "./public/products/300cc-panther-atv-p2.png",
-      "./public/products/300cc-panther-atv-p3.png",
-      "./public/products/300cc-panther-atv-p4.png",
-      "./public/products/300cc-panther-atv-p5.png",
-      "./public/products/300cc-panther-atv-p6.png",
-      "./public/products/300cc-panther-atv-p7.png"
+      "./public/products/panther-atv-new.png"
     ],
     specifications: {
       "Engine Type": "300cc, 4-Stroke, Single Cylinder",
@@ -1054,11 +1048,7 @@ const bikesData = [
     shortDescription: "Rugged 8-inch off-road styled self-balancing hoverboard with wide stable tyres.",
     fullDescription: "The 8 Inches Hoverboard is designed for riders looking for extra stability. With its larger 8-inch solid rubber tyres and aggressive shell design, it handles cracks, bumps, and light gravel paths with ease. Includes built-in Bluetooth speakers, running LED path lights, and self-balancing gyroscopic sensors.",
     images: [
-      "./public/products/8-inches-havour-board-p1.png",
-      "./public/products/8-inches-havour-board-p2.png",
-      "./public/products/8-inches-havour-board-p3.png",
-      "./public/products/8-inches-havour-board-p4.png",
-      "./public/products/8-inches-havour-board-p5.png"
+      "./public/products/hoverboard-new.png"
     ],
     specifications: {
       "Wheel Diameter": "8 Inches Solid Rubber",

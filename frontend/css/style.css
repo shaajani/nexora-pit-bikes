@@ -2454,7 +2454,16 @@ img[src*="bmw-foldable-bicyle"] {
   transform-origin: center center !important;
 }
 
-
+/* Use contain to avoid cropping 500cc ATV, 500cc Beast ATV, hoverboard and panther ATV images */
+img[src*="500cc-atv"],
+img[src*="500cc-beast-atv"],
+img[src*="hoverboard-new"],
+img[src*="panther-atv-new"] {
+  object-fit: contain !important;
+  object-position: center !important;
+  transform: none !important;
+  transform-origin: center center !important;
+}
 
 /* Premium Dark Showroom Details Modal Overrides */
 #details-modal .modal-content-wrapper {
