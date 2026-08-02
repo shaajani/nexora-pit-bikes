@@ -645,12 +645,11 @@
       "shortDescription": "Premium 26-inch BMW foldable fat tyre bicycle — portable, sturdy, and built for urban roads and trail adventures.",
       "fullDescription": "The BMW Foldable Fat Bicycle combines the ease of a folding frame with the heavy-duty capabilities of fat tyres. Perfect for commuting and off-road exploration, its 26-inch wheels with 4-inch wide tyres absorb bumps and provide excellent traction on gravel, sand, and city streets.",
       "images": [
-        "./public/products/26-inches-foldable-fat-bicycle-p1.png",
-        "./public/products/26-inches-foldable-fat-bicycle-p2.png",
-        "./public/products/26-inches-foldable-fat-bicycle-p3.png",
-        "./public/products/26-inches-foldable-fat-bicycle-p4.png",
-        "./public/products/26-inches-foldable-fat-bicycle-p5.png",
-        "./public/products/26-inches-foldable-fat-bicycle-p6.png"
+        "./public/products/media__1785682292037_page_1.png",
+        "./public/products/media__1785682292037_page_2.png",
+        "./public/products/media__1785682292037_page_3.png",
+        "./public/products/media__1785682292037_page_4.png",
+        "./public/products/media__1785682292037_page_5.png"
       ],
       "specifications": {
         "Wheel Size": "26\" Fat Tyre",
