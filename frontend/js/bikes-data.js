@@ -792,12 +792,7 @@ const bikesData = [
     shortDescription: "Powerful 500cc all-terrain vehicle — built for serious off-road domination and adventure.",
     fullDescription: "The 500cc ATV is a beast of an all-terrain vehicle designed for serious off-road enthusiasts who demand maximum power and capability. Its massive 500cc engine delivers exciting performance across all terrains, while the aggressive styling, robust dual A-arm suspension, and 4x4 selectable drive ensure you conquer any landscape with absolute authority.",
     images: [
-      "./public/products/500cc-atv-p1.png",
-      "./public/products/500cc-atv-p2.png",
-      "./public/products/500cc-atv-p3.png",
-      "./public/products/500cc-atv-p4.png",
-      "./public/products/500cc-atv-p5.png",
-      "./public/products/500cc-atv-p6.png"
+      "./public/products/500cc-atv-new.png"
     ],
     specifications: {
       "Engine Type": "500cc, 4-Stroke, Single Cylinder, Air-Cooled",
