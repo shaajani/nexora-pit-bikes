@@ -1043,7 +1043,10 @@
       "shortDescription": "Rugged 8-inch off-road styled self-balancing hoverboard with wide stable tyres.",
       "fullDescription": "The 8 Inches Hoverboard is designed for riders looking for extra stability. With its larger 8-inch solid rubber tyres and aggressive shell design, it handles cracks, bumps, and light gravel paths with ease. Includes built-in Bluetooth speakers, running LED path lights, and self-balancing gyroscopic sensors.",
       "images": [
-        "./public/products/hoverboard-new.png"
+        "./public/products/media__1785691841111_page_1.png",
+        "./public/products/media__1785691841111_page_2.png",
+        "./public/products/media__1785691841111_page_3.png",
+        "./public/products/media__1785691841111_page_4.png"
       ],
       "specifications": {
         "Wheel Diameter": "8 Inches Solid Rubber",
