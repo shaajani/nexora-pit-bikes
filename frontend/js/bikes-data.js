@@ -791,7 +791,12 @@ const bikesData = [
     shortDescription: "Powerful 500cc all-terrain vehicle — built for serious off-road domination and adventure.",
     fullDescription: "The 500cc ATV is a beast of an all-terrain vehicle designed for serious off-road enthusiasts who demand maximum power and capability. Its massive 500cc engine delivers exciting performance across all terrains, while the aggressive styling, robust dual A-arm suspension, and 4x4 selectable drive ensure you conquer any landscape with absolute authority.",
     images: [
-      "./public/products/500cc-atv-new.png"
+      "./public/products/500cc-atv-new-p1.png",
+      "./public/products/500cc-atv-new-p2.png",
+      "./public/products/500cc-atv-new-p3.png",
+      "./public/products/500cc-atv-new-p4.png",
+      "./public/products/500cc-atv-new-p5.png",
+      "./public/products/500cc-atv-new-p6.png"
     ],
     specifications: {
       "Engine Type": "500cc, 4-Stroke, Single Cylinder, Air-Cooled",
@@ -826,7 +831,13 @@ const bikesData = [
     shortDescription: "Versatile 300cc Panther ATV — the perfect balance of power, agility, and off-road performance.",
     fullDescription: "The 300cc Panther ATV strikes the perfect balance between raw power and nimble handling, making it the most versatile all-terrain vehicle in our lineup. Its 300cc engine provides ample power for climbing steep inclines and powering through tough terrain, while the lightweight chassis ensures sharp handling and easy maneuverability.",
     images: [
-      "./public/products/panther-atv-new.png"
+      "./public/products/panther-atv-new-p1.png",
+      "./public/products/panther-atv-new-p2.png",
+      "./public/products/panther-atv-new-p3.png",
+      "./public/products/panther-atv-new-p4.png",
+      "./public/products/panther-atv-new-p5.png",
+      "./public/products/panther-atv-new-p6.png",
+      "./public/products/panther-atv-new-p7.png"
     ],
     specifications: {
       "Engine Type": "300cc, 4-Stroke, Single Cylinder",
